@@ -2,7 +2,7 @@
 
 # Shared Workflows
 
-This project gathered a list of workflows shared across multiple **@monero-rs** repositories.
+This project gather a list of workflows shared across multiple **@monero-rs** repositories.
 
 ## License
 
