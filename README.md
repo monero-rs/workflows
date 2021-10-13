@@ -1,4 +1,4 @@
-![Workflow version](https://img.shields.io/badge/version-@v1-blue)
+![Workflow version](https://img.shields.io/badge/Workflow%20version-@v1-blue)
 [![License: MIT or Apache](https://img.shields.io/badge/License-MIT%20or%20Apache%202.0-yellow.svg)](./COPYRIGHT)
 
 # Shared Workflows
