@@ -6,12 +6,15 @@ on:
       version:
         description: 'The new version in X.Y.Z format.'
         required: true
+        type: string
       name:
         description: 'The username for the commit.'
         required: true
+        type: string
       email:
         description: 'The email for the commit.'
         required: true
+        type: string
     secrets:
       token:
         description: 'A personal access token to draft a new release.'
