@@ -1,8 +1,13 @@
+![Workflow version](https://img.shields.io/badge/version-@v1-blue)
 [![License: MIT or Apache](https://img.shields.io/badge/License-MIT%20or%20Apache%202.0-yellow.svg)](./COPYRIGHT)
 
 # Shared Workflows
 
 This project gathers a list of workflows shared across multiple **@monero-rs** repositories.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version logs.
 
 ## License
 
