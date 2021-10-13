@@ -68,7 +68,6 @@ jobs:
           head: release/${{ inputs.version }}
           base: main
           title: Release version ${{ inputs.version }}
-          reviewers: ${{ github.actor }}
           body: |
             Hi @${{ github.actor }}!
 
