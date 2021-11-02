@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2021-11-02
+
 ### Added
 
 - Possibility to attach artifacts to releases with `artifact_name` and `files` inputs in create release workflow
@@ -28,5 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Draft new release` shared workflow
 - `Release to crates.io` shared workflow
 
-[Unreleased]: https://github.com/monero-rs/workflows/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/monero-rs/workflows/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/monero-rs/workflows/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/monero-rs/workflows/compare/38f5205bf6af87a41fdbc6c80e101e13876fb915...v1.0.0
