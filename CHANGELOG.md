@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Possibility to attach artifacts to releases with `artifact_name` and `files` inputs in create release workflow
+
+### Changed
+
+- Commit and release is done by the GitHub Actions bot identity
+
+### Removed
+
+- `name`, `email`, `with_lock` in draft new release workflow
+- Identity secrets in draft new release and create new release workflows
+
 ## [1.0.0] - 2021-10-13
 
 ### Added
