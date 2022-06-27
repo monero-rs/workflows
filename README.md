@@ -1,4 +1,4 @@
-[![Workflow version](https://img.shields.io/badge/Workflow%20version-@v1.1.0-blue)](https://github.com/monero-rs/workflows/releases/tag/v1.1.0)
+[![Workflow version](https://img.shields.io/badge/Workflow%20version-@v2.0.0-blue)](https://github.com/monero-rs/workflows/releases/tag/v2.0.0)
 [![License: MIT or Apache](https://img.shields.io/badge/License-MIT%20or%20Apache%202.0-yellow.svg)](./COPYRIGHT)
 
 # Shared Workflows
