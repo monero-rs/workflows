@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Update DPrint plugins
 - Bump EndBug/add-and-commit from 7.4.0 to 9.0.0
 
 ## [1.1.0] - 2021-11-02
