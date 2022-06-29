@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - New `base_branch` input in `draft-new-release.yml` to change the default branch 'main'
 
+### Changed
+
+- Bump EndBug/add-and-commit from 9.0.0 to 9.0.1
+
 ## [2.0.1] - 2022-06-27
 
 ### Fixed
