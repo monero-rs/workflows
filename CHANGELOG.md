@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New `base_branch` input in `draft-new-release.yml` to change the default branch 'main'
+
 ## [2.0.1] - 2022-06-27
 
 ### Fixed

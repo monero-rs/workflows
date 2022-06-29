@@ -17,6 +17,11 @@ on:
         required: false
         default: false
         type: boolean
+      base_branch:
+        description: 'Defines the base branch to use to create the pull request against. Default to main.'
+        required: false
+        default: 'main'
+        type: string
 
 jobs:
   draft-new-release:
@@ -74,7 +79,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           head: release/${{ github.event.inputs.version }}
-          base: main
+          base: ${{ inputs.base_branch }}
           title: Release version ${{ github.event.inputs.version }}
           body: |
             Hi @${{ github.actor }}!
