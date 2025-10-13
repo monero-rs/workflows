@@ -4,23 +4,23 @@ on:
   workflow_call:
     inputs:
       version:
-        description: 'The new version in major.minor.patch format.'
+        description: "The new version in major.minor.patch format."
         required: true
         type: string
       build:
-        description: 'Build the projet with cargo, useful when Cargo.lock is commited and needs to be updated.'
+        description: "Build the projet with cargo, useful when Cargo.lock is commited and needs to be updated."
         required: false
         default: false
         type: boolean
       check_publish:
-        description: 'Dry run cargo publish before pushing changes, useful to not allow unpublishable releases.'
+        description: "Dry run cargo publish before pushing changes, useful to not allow unpublishable releases."
         required: false
         default: false
         type: boolean
       base_branch:
-        description: 'Defines the base branch to use to create the pull request against. Default to main.'
+        description: "Defines the base branch to use to create the pull request against. Default to main."
         required: false
-        default: 'main'
+        default: "main"
         type: string
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
           changelogPath: CHANGELOG.md
 
       - name: Bump version in Cargo.toml
-        uses: thomaseizinger/set-crate-version@1.0.0
+        uses: thomaseizinger/set-crate-version@2.0.0
         with:
           version: ${{ github.event.inputs.version }}
           manifest: Cargo.toml
