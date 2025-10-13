@@ -47,6 +47,8 @@ jobs:
 
       - name: Install latest stable
         uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
 
       - name: Cargo build update lockfile
         if: ${{ inputs.build }}
