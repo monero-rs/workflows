@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2025-10-13
+
+### Changed
+
 - Bump `softprops/action-gh-release` from 1 to 2
 - Bump `EndBug/add-and-commit` from 9.1.3 to 9.1.4
 - Bump `actions/download-artifact` from 3 to 4
@@ -70,7 +74,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Draft new release` shared workflow
 - `Release to crates.io` shared workflow
 
-[Unreleased]: https://github.com/monero-rs/workflows/compare/v2.0.3...HEAD
+[Unreleased]: https://github.com/monero-rs/workflows/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/monero-rs/workflows/compare/v2.0.3...v3.0.0
 [2.0.3]: https://github.com/monero-rs/workflows/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/monero-rs/workflows/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/monero-rs/workflows/compare/v2.0.0...v2.0.1
