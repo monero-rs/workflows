@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Bump `softprops/action-gh-release` from 1 to 2
+- Bump `EndBug/add-and-commit` from 9.1.3 to 9.1.4
+- Bump `actions/download-artifact` from 3 to 4
+- Bump `thomaseizinger/keep-a-changelog-new-release` from 1.3.0 to 3.1.0
+
 ## [2.0.3] - 2023-08-18
 
 ### Changed
