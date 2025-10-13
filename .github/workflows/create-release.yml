@@ -18,7 +18,7 @@ jobs:
     if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release/')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Extract version from branch name
         id: extract-version
@@ -37,7 +37,7 @@ jobs:
 
       - name: Download artifacts for release
         if: ${{ inputs.artifact_name }}
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: ${{ inputs.artifact_name }}
 

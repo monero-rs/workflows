@@ -28,7 +28,7 @@ jobs:
     name: "Draft a new release"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Create release branch
         run: git checkout -b release/${{ inputs.version }}
@@ -46,11 +46,7 @@ jobs:
           manifest: Cargo.toml
 
       - name: Install latest stable
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          default: true
-          override: true
+        uses: dtolnay/rust-toolchain@master
 
       - name: Cargo build update lockfile
         if: ${{ inputs.build }}

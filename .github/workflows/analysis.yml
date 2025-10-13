@@ -2,22 +2,19 @@ name: Static Analysis
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
-
   mdtomlfmt:
     name: Generic format (md,toml)
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-    - name: Run dprint
-      run: |
-        curl -fsSL https://dprint.dev/install.sh | sh
-        /home/runner/.dprint/bin/dprint check
-
-
+      - name: Run dprint
+        run: |
+          curl -fsSL https://dprint.dev/install.sh | sh
+          /home/runner/.dprint/bin/dprint check

@@ -9,7 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Bump `coditory/changelog-parser@v1` from 1 to 1.0.2
+- Bump `actions/checkout` from 4 to 5
+- Bump `actions/download-artifact` from 4 to 5
+- Bump `coditory/changelog-parser` from 1 to 1.0.2
+- Move from `actions-rs/toolchain` to `dtolnay/rust-toolchain`
 
 ## [3.0.1] - 2025-10-13
 
