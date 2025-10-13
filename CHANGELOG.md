@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.2] - 2025-10-13
+
 ### Changed
 
 - Bump `actions/checkout` from 4 to 5
@@ -87,7 +89,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Draft new release` shared workflow
 - `Release to crates.io` shared workflow
 
-[Unreleased]: https://github.com/monero-rs/workflows/compare/v3.0.1...HEAD
+[Unreleased]: https://github.com/monero-rs/workflows/compare/v3.0.2...HEAD
+[3.0.2]: https://github.com/monero-rs/workflows/compare/v3.0.1...v3.0.2
 [3.0.1]: https://github.com/monero-rs/workflows/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/monero-rs/workflows/compare/v2.0.3...v3.0.0
 [2.0.3]: https://github.com/monero-rs/workflows/compare/v2.0.2...v2.0.3
