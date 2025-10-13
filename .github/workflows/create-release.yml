@@ -4,11 +4,11 @@ on:
   workflow_call:
     inputs:
       artifact_name:
-        description: 'The name of the artifact to download. Default to no artifact downloaded.'
+        description: "The name of the artifact to download. Default to no artifact downloaded."
         required: false
         type: string
       files:
-        description: 'Newline-delimited globs of paths to assets to upload for release, must be found in the downloaded artifact.'
+        description: "Newline-delimited globs of paths to assets to upload for release, must be found in the downloaded artifact."
         required: false
         type: string
 
@@ -31,7 +31,7 @@ jobs:
 
       - name: Extract changelog section for release
         id: changelog
-        uses: coditory/changelog-parser@v1
+        uses: coditory/changelog-parser@v1.0.2
         with:
           version: ${{ steps.extract-version.outputs.version }}
 
